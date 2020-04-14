@@ -1,0 +1,48 @@
+{
+    "name": "react-snippets",
+    "displayName": "react-snippets",
+    "description": "React / React Native Snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.imports.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.imports.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.ts.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.ts.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.imports.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.imports.json"
+            }
+        ]
+    }
+}

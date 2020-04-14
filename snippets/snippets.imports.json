@@ -1,0 +1,16 @@
+{
+    "import react native module": {
+        "prefix": "imrn",
+        "body": [
+            "import { $1 } from 'react-native';\n$0"
+        ],
+        "description": "import react-native"
+    },
+    "import react module": {
+        "prefix": "imr",
+        "body": [
+            "import React, { $1 } from 'react';\n$0"
+        ],
+        "description": "import react-native"
+    }
+}
