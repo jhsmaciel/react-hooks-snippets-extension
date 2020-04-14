@@ -1,6 +1,6 @@
 {
-    "name": "react-snippets",
-    "displayName": "react-snippets",
+    "name": "react-hooks-snippets-extension",
+    "displayName": "react-hooks-snippets-extension",
     "description": "React / React Native Snippets",
     "version": "0.0.1",
     "engines": {
@@ -44,5 +44,6 @@
                 "path": "./snippets/snippets.imports.json"
             }
         ]
-    }
+    },
+    "publisher": "react-hooks-snippets-extensions"
 }
