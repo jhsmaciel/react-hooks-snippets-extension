@@ -1,6 +1,6 @@
-# rn-snippets README
+# react-hooks-snippets-extension README
 
-This is the README for your extension "rn-snippets". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "react-hooks-snippets-extension". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
@@ -35,17 +35,10 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
+Initial release of react and react-native hooks snippets
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
 
 -----------------------------------------------------------------------------------------------------------
 
