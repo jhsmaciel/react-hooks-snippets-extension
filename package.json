@@ -1,6 +1,7 @@
 {
     "name": "react-hooks-snippets-extension",
-    "displayName": "react-hooks-snippets-extension",
+    "displayName": "React Hooks Snippets Extension",
+    "icon": "images/logo_hooks.png",
     "description": "React / React Native Snippets",
     "version": "0.0.1",
     "engines": {
@@ -45,5 +46,8 @@
             }
         ]
     },
-    "publisher": "react-hooks-snippets-extensions"
+    "publisher": "joao-henrique",
+    "repository": {
+        "url": "https://github.com/jhsmaciel/react-hooks-snippets-extension"
+    }
 }
