@@ -1,57 +1,57 @@
-# React Hooks Snippets Extension README
+# *React Hooks Snippets Extension README*
+## *Features*
 
+> **Typescript**
 
-## Features
+- ***useState***
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+  - `us`  to `const [any, setAny] = useState<any>();`
+   - `usb` to `const [boolean, setBoolean] = useState<boolean>(false);`
+   - `usn` to `const [number, setNumber] = useState<number>(0);`
+   - `uss` to `const [string, setString] = useState<string>('');`
+   - `us[]` to `const [arrayOfAny, setArrayOfAny] = useState<any[]>([]);`
 
-For example if there is an image subfolder under your extension project workspace:
+- ***useEffect***
 
-\!\[feature 0.0.1\]\(images/feature-0.0.1.png\)
+    - `ue` to `useEffect(() => { }, []);`
+    - `uecup` to `useEffect(() => { return  cleanUp = () => { }}, []);` 
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+ - ***useRef***
+
+    - `ur` to `const  anyRef = useRef()
+`
+> **Javascript**
+
+- ***useState***
+	 - `us`  to `const [any, setAny] = useState();`
+
+- ***useEffect***
+	-	`uecup` to `useEffect(() => { return  cleanUp = () => { }}, []);` 
+
+- ***useRef***
+   - `ur` to `const  anyRef = useRef()`
+
+- ***useContext***
+	- `uc` to `const  value = useContext(MyContext);`
 
 ## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+> Loves hooks react
+> vscode version ^1.44.0
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 0.0.1
 
 Initial release of react and react-native hooks snippets
 
-
+### 0.2.1
+Add a **readme md** to project and fixed a bug useEffect fot JS
+  
 -----------------------------------------------------------------------------------------------------------
+## For more information
 
-## Working with Markdown
+*  [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+*  [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**

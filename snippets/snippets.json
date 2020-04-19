@@ -10,7 +10,7 @@
         "prefix": "ue",
         "body": [
             "useEffect(() => {",
-            "\t$$1:doAnything}",
+            "\t$1",
             "\n\treturn cleanUp = () => {",
             "\t\t$2",
             "\t}",
