@@ -1,7 +1,7 @@
 # *React Hooks Snippets Extension README*
 ## *Features*
 
-### **Typescript**
+> **Typescript**
 
 * ***useState***
    - `us`  to `const [any, setAny] = useState<any>();`
@@ -15,9 +15,10 @@
    - `uecup` to `useEffect(() => { return  cleanUp = () => { }}, []);` 
 
 * ***useRef***
-   - `ur` to `const  anyRef = useRef()
-`
-### **Javascript**
+   - `ur` to `const  anyRef = useRef()`
+
+
+> **Javascript**
 
 * ***useState***
    - `us`  to `const [any, setAny] = useState();`
