@@ -34,9 +34,9 @@
 
 ## Requirements
 
-> Loves hooks react
+* Loves react hooks
 
-> vscode version ^1.44.0
+* vscode version ^1.44.0
 
 ## Release Notes
 
