@@ -3,7 +3,7 @@
     "displayName": "React Hooks Snippets Extension",
     "icon": "images/logo_hooks.png",
     "description": "React / React Native Snippets",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "engines": {
         "vscode": "^1.44.0"
     },
