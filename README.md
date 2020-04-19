@@ -46,6 +46,9 @@ Initial release of react and react-native hooks snippets
 ### 0.2.1
 Add a **readme md** to project and fixed a bug useEffect fot JS
   
+### 0.2.2
+Alter **readme md** project
+
 -----------------------------------------------------------------------------------------------------------
 ## For more information
 
