@@ -4,38 +4,37 @@
 > **Typescript**
 
 - ***useState***
-
-  - `us`  to `const [any, setAny] = useState<any>();`
-   - `usb` to `const [boolean, setBoolean] = useState<boolean>(false);`
-   - `usn` to `const [number, setNumber] = useState<number>(0);`
-   - `uss` to `const [string, setString] = useState<string>('');`
-   - `us[]` to `const [arrayOfAny, setArrayOfAny] = useState<any[]>([]);`
+    - `us`  to `const [any, setAny] = useState<any>();`
+    - `usb` to `const [boolean, setBoolean] = useState<boolean>(false);`
+    - `usn` to `const [number, setNumber] = useState<number>(0);`
+    - `uss` to `const [string, setString] = useState<string>('');`
+    - `us[]` to `const [arrayOfAny, setArrayOfAny] = useState<any[]>([]);`
 
 - ***useEffect***
-
     - `ue` to `useEffect(() => { }, []);`
     - `uecup` to `useEffect(() => { return  cleanUp = () => { }}, []);` 
 
- - ***useRef***
-
+- ***useRef***
     - `ur` to `const  anyRef = useRef()
 `
 > **Javascript**
 
 - ***useState***
-	 - `us`  to `const [any, setAny] = useState();`
+	- `us`  to `const [any, setAny] = useState();`
 
 - ***useEffect***
 	-	`uecup` to `useEffect(() => { return  cleanUp = () => { }}, []);` 
 
 - ***useRef***
-   - `ur` to `const  anyRef = useRef()`
+    - `ur` to `const  anyRef = useRef()`
 
 - ***useContext***
 	- `uc` to `const  value = useContext(MyContext);`
 
 ## Requirements
+
 > Loves hooks react
+
 > vscode version ^1.44.0
 
 ## Release Notes
