@@ -12,7 +12,7 @@
 
 * ***useEffect***
    - `ue` to `useEffect(() => { }, []);`
-   - `uecup` to `useEffect(() => { return  cleanUp = () => { }}, []);` 
+   - `uecup` to `useEffect(() => { return () => { }}, []);` 
 
 * ***useRef***
    - `ur` to `const  anyRef = useRef()`
@@ -24,7 +24,7 @@
    - `us`  to `const [any, setAny] = useState();`
 
 * ***useEffect***
-   - `uecup` to `useEffect(() => { return  cleanUp = () => { }}, []);` 
+   - `uecup` to `useEffect(() => { return () => { }}, []);` 
 
 * ***useRef***
    - `ur` to `const  anyRef = useRef()`
@@ -37,18 +37,6 @@
 * Loves react hooks
 
 * vscode version ^1.44.0
-
-## Release Notes
-
-### 0.0.1
-
-Initial release of react and react-native hooks snippets
-
-### 0.2.1
-Add a **readme md** to project and fixed a bug useEffect fot JS
-  
-### 0.2.2
-Alter **readme md** project
 
 -----------------------------------------------------------------------------------------------------------
 ## For more information
